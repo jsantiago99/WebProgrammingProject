@@ -1,0 +1,53 @@
+/********* Set the color variables************/
+
+:root {
+    /* potential color theme 1 */
+    --primary-color: #b937ae;
+    --secondary-color: #7C77B9;
+    --primary-font-color: #24a2b3;
+    --secondary-font: #0BC9CD;
+    --bg-color: #14FFF7;
+}
+
+header {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: var(--primary-font-color);
+    text-align: center;
+}
+
+h3 {
+    color: var(--secondary-font);
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: var(--primary-font-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: var(--bg-color);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: var(--bg-color);
+    color: white;
+}
+
+footer {
+    background-color: var(--bg-color);
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+#left {
+    width: 50%;
+    height: 420px;
+    float: left;
+}
+
+#right {
+    margin-left: 50%;
+    height: 420px;
+}
+
+#noCustomers {
+    font-size: large;
+    color: black;
+    font-weight: bolder;
+}
+
+#orderPlaced {
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+}
+
+#Delete {
+    background-color: red;
+    color: white;
+}

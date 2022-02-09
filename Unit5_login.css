@@ -1,0 +1,47 @@
+#loginSec {
+    background-color: beige;
+}
+
+#loginButton {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#Email {
+    font-weight: bold;
+}
+
+#password {
+    font-weight: bold;
+}
+
+#emailLabel,
+#passwordLabel {
+    font-weight: bold;
+}
+
+#guest {
+    background-color: beige;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#loginWelcome {
+    font-size: 25px;
+}
+
+#rememberLabel {
+    font-size: 15px;
+}
+
+#forgotPassword {
+    margin-left: 25px;
+}
+
+#errorChecker {
+    color: red;
+    font-weight: bold;
+}

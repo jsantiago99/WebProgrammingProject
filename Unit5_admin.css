@@ -1,0 +1,17 @@
+td,
+th {
+    border: 1px solid black;
+    font-size: large;
+    padding: 5px;
+}
+
+h4 {
+    font-size: larger;
+}
+
+#tables {
+    background-color: beige;
+    padding: 10px;
+    border: 1px solid beige;
+    border-radius: 10px;
+}

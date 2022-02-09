@@ -1,0 +1,67 @@
+:root {
+    /* potential color theme 1 */
+    --primary-color: #02e6d3;
+    --secondary-color: #5bb1d3;
+    --primary-font-color: #24a2b3;
+    --secondary-font: #0BC9CD;
+    --bg-color: #14FFF7;
+}
+
+body {
+    background-color: var(--secondary-color);
+    /* background-color: var(--primary-color); */
+}
+
+section {
+    padding: 6px;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#header {
+    background-color: tan;
+    font-size: 25px;
+    border: 2px solid tan;
+    border-radius: 3px;
+}
+
+select:required:invalid {
+    color: rgb(73, 70, 70);
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+option {
+    color: #000;
+}
+
+aside {
+    /* border: 2px solid tan;
+    border-radius: 3px; */
+    float: right;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#stockLeft {
+    color: yellow;
+    font-weight: bold;
+    display: none;
+}
+
+#admin {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
